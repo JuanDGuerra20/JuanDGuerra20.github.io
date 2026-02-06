@@ -23,7 +23,6 @@
             <ul class="nav-menu">
                 <li><a href="#about">About</a></li>
                 <li><a href="#research">Research</a></li>
-                <li><a href="#projects">Projects</a></li>
                 <li><a href="#publications">Publications</a></li>
                 <li><a href="#education">Education</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -125,109 +124,6 @@
                     <h3>Neuroimaging</h3>
                     <p>Using machine learning to analyze fMRI and TMS data for understanding brain function and task prediction.</p>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section class="section" id="projects">
-        <div class="container">
-            <h2 class="section-title">Research & Projects</h2>
-            <div class="projects-list">
-
-                <div class="project-item">
-                    <button class="project-header">
-                        <div class="project-header-content">
-                            <h3>Hierarchical Optimization of Neurostimulation for Spinal Cord Injury</h3>
-                            <span class="project-meta">Mila & Polytechnique Montr&eacute;al | 2024 - Present | <em>Master's Thesis</em></span>
-                        </div>
-                        <i class="fas fa-chevron-down project-toggle"></i>
-                    </button>
-                    <div class="project-content">
-                        <p><strong>Supervisors:</strong> Marco Bonizzato and Guillaume Lajoie (Polytechnique Montreal and Mila)</p>
-                        <p><strong>Objective:</strong> Optimizing neurostimulation parameters for coordinated muscle activation following traumatic spinal cord injury in rat models. The core challenge involves incorporating multiple muscles into stimulation procedures while managing the complexity of additional parameters&mdash;functional recovery requires restoration of multiple movement patterns simultaneously, not just individual muscle recovery.</p>
-                        <p><strong>Key Innovation:</strong> Developed a hierarchical learning algorithm using Gaussian Processes capable of "disentangling information" to train multiple models concurrently from a single response signal. This Bidirectional Information Flow (BIF) framework enables sample-efficient Bayesian Optimization and is applicable to multi-parameter neurostimulation optimization and broader hierarchical learning contexts.</p>
-                        <p><strong>Outcome:</strong> arXiv preprint (<a href="https://arxiv.org/abs/2505.11294" target="_blank">arXiv:2505.11294</a>)</p>
-                        <div class="project-tags">
-                            <span>Gaussian Processes</span>
-                            <span>Bayesian Optimization</span>
-                            <span>Neuroprosthetics</span>
-                            <span>Spinal Cord Injury</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-item">
-                    <button class="project-header">
-                        <div class="project-header-content">
-                            <h3>Hallucination Detox: Sensitivity Dropout (SenD) for LLM Training</h3>
-                            <span class="project-meta">McGill University & Mila | June 2024 - August 2025</span>
-                        </div>
-                        <i class="fas fa-chevron-down project-toggle"></i>
-                    </button>
-                    <div class="project-content">
-                        <p><strong>Collaborators:</strong> S. Mohammadzadeh (Mila), M. Bonizzato, R. Rabbany, G. Farnadi (EQUAL Lab)</p>
-                        <p><strong>Objective:</strong> Addressing factually inaccurate outputs (hallucinations) produced by large language models including ChatGPT and Meta's Llama models. Unlike existing approaches, we sought to identify root causes of hallucinations and address them <em>during training</em> rather than post-deployment.</p>
-                        <p><strong>Key Findings:</strong> Our research revealed that current LLM models are trained to optimize their loss function, but this does not correspond to optimizing factual performance. Analysis of Pythia's training dynamics showed hallucinatory behavior fluctuating randomly without improvement.</p>
-                        <p><strong>Solutions Developed:</strong></p>
-                        <ul>
-                            <li><strong>Sensitivity Dropout (SenD):</strong> A novel training protocol reducing performance oscillations and improving accuracy</li>
-                            <li><strong>Efficient EigenScore (EES):</strong> A hallucination detection method achieving quadratic-time computation versus cubic-time alternatives</li>
-                        </ul>
-                        <p><strong>Outcome:</strong> Published at <a href="https://aclanthology.org/2025.acl-long.304/" target="_blank">ACL 2025</a> (63rd Annual Meeting of the Association for Computational Linguistics), Vienna, Austria</p>
-                        <div class="project-tags">
-                            <span>LLMs</span>
-                            <span>AI Safety</span>
-                            <span>Hallucination Detection</span>
-                            <span>Deep Learning</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-item">
-                    <button class="project-header">
-                        <div class="project-header-content">
-                            <h3>Unveiling Lateralization of the Brain through fMRI & TMS</h3>
-                            <span class="project-meta">McGill University & Mila | February 2023 - December 2024</span>
-                        </div>
-                        <i class="fas fa-chevron-down project-toggle"></i>
-                    </button>
-                    <div class="project-content">
-                        <p><strong>Supervisor:</strong> Professor Danilo Bzdok | <strong>International Collaboration:</strong> Prof. Gesa Hartwigsen (University of Leipzig)</p>
-                        <p><strong>Objective:</strong> Using machine learning models to analyze brain activation patterns from fMRI data to predict and understand cognitive tasks. This international collaboration investigated state-dependent network adaptations following inhibition of the inferior parietal lobe using Transcranial Magnetic Stimulation (TMS).</p>
-                        <p><strong>Methods:</strong> Applied ML interpretability techniques to neuroimaging data, combining fMRI analysis with TMS intervention studies to understand brain lateralization and network dynamics.</p>
-                        <p><strong>Tools:</strong> NIlearn, NumPy, Pandas, Matplotlib, Scikit-learn</p>
-                        <p><strong>Outcome:</strong> Published in <a href="https://dx.doi.org/10.1016/j.heliyon.2024.e39735" target="_blank">Heliyon (2024)</a></p>
-                        <div class="project-tags">
-                            <span>fMRI</span>
-                            <span>TMS</span>
-                            <span>Neuroimaging</span>
-                            <span>ML Interpretability</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-item">
-                    <button class="project-header">
-                        <div class="project-header-content">
-                            <h3>Visual Stimuli and Neural Activation in Mouse Brains</h3>
-                            <span class="project-meta">McGill University | June 2022 - February 2023</span>
-                        </div>
-                        <i class="fas fa-chevron-down project-toggle"></i>
-                    </button>
-                    <div class="project-content">
-                        <p><strong>Supervisor:</strong> Professor Erik Cook (Department of Physiology)</p>
-                        <p><strong>Objective:</strong> Investigated correlations between visual stimuli and neural activation in mouse brains using statistical techniques and data processing.</p>
-                        <p><strong>Technical Contribution:</strong> Developed Z-plane motion correction methods for two-photon imaging of neural activity in awake behaving mice, improving data quality for downstream analysis.</p>
-                        <div class="project-tags">
-                            <span>Computational Neuroscience</span>
-                            <span>Two-photon Imaging</span>
-                            <span>Motion Correction</span>
-                            <span>Data Analysis</span>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
     </section>
@@ -483,23 +379,6 @@
             });
         });
 
-        // Project accordion functionality
-        document.querySelectorAll('.project-header').forEach(header => {
-            header.addEventListener('click', () => {
-                const projectItem = header.parentElement;
-                const isActive = projectItem.classList.contains('active');
-
-                // Close all other projects
-                document.querySelectorAll('.project-item').forEach(item => {
-                    item.classList.remove('active');
-                });
-
-                // Toggle current project
-                if (!isActive) {
-                    projectItem.classList.add('active');
-                }
-            });
-        });
     </script>
 </body>
 </html>
