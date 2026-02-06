@@ -1,182 +1,311 @@
-<!DOCTYPE HTML>
-<!--
-	Miniport by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Juan David Guerra</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan David Guerra | M.ASc Student at Mila & Polytechnique Montreal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">JDG</a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="images/JuanGuerraCVComp.pdf" class="nav-cv">CV</a></li>
+            </ul>
+        </div>
+    </nav>
 
-		<!-- Nav -->
-			<nav id="nav">
-				<ul class="container">
-					<li><a href="#top">Top</a></li>
-					<li><a href="#publications">Publications</a></li>
-					<li><a href="#work">Work</a></li>
-					<li><a href="#awards">Awards</a></li>
-					<li><a href="#contact">Contact</a></li>					
-					<li><a href="images\JuanGuerraCVComp.pdf">Curriculum Vitae</a></li>
-				</ul>
-			</nav>
+    <!-- Hero Section -->
+    <header class="hero" id="top">
+        <div class="hero-container">
+            <div class="hero-image">
+                <img src="images/profile_pic.jpg" alt="Juan David Guerra">
+            </div>
+            <div class="hero-content">
+                <h1>Juan David Guerra</h1>
+                <p class="hero-title">M.ASc Student</p>
+                <p class="hero-affiliation">
+                    <a href="https://mila.quebec/" target="_blank">Mila - Quebec AI Institute</a> &
+                    <a href="https://www.polymtl.ca/" target="_blank">Polytechnique Montreal</a>
+                </p>
+                <p class="hero-description">
+                    Developing Machine Learning solutions for neuroprosthetics and spinal cord injury therapy.
+                </p>
+                <div class="hero-links">
+                    <a href="mailto:juandavidguerra1@gmail.com" class="btn btn-primary">
+                        <i class="fas fa-envelope"></i> Contact Me
+                    </a>
+                    <a href="images/JuanGuerraCVComp.pdf" class="btn btn-secondary">
+                        <i class="fas fa-file-alt"></i> View CV
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/juan-david-guerra-b46334187/" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/JuanDGuerra20" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank" aria-label="Google Scholar">
+                        <i class="fas fa-graduation-cap"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
 
-		<!-- Home -->
-			<article id="top" class="wrapper style1">
-				<div class="container">
-					<div class="row">
-						<div class="col-4 col-5-large col-12-medium">
-							<span class="image fit"><img src="images/profile_pic.jpg" alt="" /></span>
-						</div>
-						<div class="col-8 col-7-large col-12-medium">
-							<header>
-								<h1>Hi. I'm <strong>Juan David Guerra</strong>.</h1>
-							</header>
-							<p>I am a First Year <strong>M.ASc student at Polytechnique Montreal & MILA - Quebec AI Institute</strong>. I am under the supervision of Professor Marco Bonizzato, with co-supervisors Professors Guillaume Lajoie, Numa Dancause, and Lama Seoud. I completed my <strong>Honours B.Sc Computer Science</strong> at <strong> McGill University</strong> with a minor in Neuroscience, graduating with <strong>First Class Honours</strong>. My experiences range a variety of topics, currently focused on <strong>neuroprosthetics</strong> with Dr. Bonizzato and previous work in LLM Hallucinations with Dr. Golnoosh Farnadi, fMRI & TMS research through machine learning interpretability with Dr. Danilo Bzdok, and computational neuroscience with Dr. Erik Cook.</p>
-						</div>
-					</div>
-				</div>
-			</article>
-		
-			<article id="publications" class="wrapper style3">
-					<header>
-						<h2>Selected Publications</h2>
-					</header>
-						<h3>Paper submission to ICLR 2025 under double blind review.</h3>
-						<h3>S. Mohammadzadeh*, J. D. Guerra*, M. Bonizzato, R. Rabbany, and G. Farnadi, <a href="https://arxiv.org/abs/2410.15460">Hallucination Detox: Sensitive Neuron Dropout (SeND) for Large Language Model Training</a>, in Neurips Safe Generative AI Workshop 2024, 2024.</h3>
-						<h3>K. A. Williams, O. Numssen, J. D. Guerra, J. Kopal, D. Bzdok, and G. Hartwigsen, <a href="https://dx.doi.org/10.1016/j.heliyon.2024.e39735">Inhibition of the inferior parietal lobe triggers state-dependent network adaptations</a>, Heliyon, vol. 10, no. 21, 2024.</h3>
-			</article>
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>
+                    I am a first-year M.ASc student at <strong>Polytechnique Montreal</strong> and <strong>Mila - Quebec AI Institute</strong>,
+                    supervised by Professor <a href="https://www.polymtl.ca/expertises/bonizzato-marco" target="_blank">Marco Bonizzato</a>,
+                    with co-supervisors Professors <a href="https://www.guillaumelajoie.com/" target="_blank">Guillaume Lajoie</a>,
+                    Numa Dancause, and Lama Seoud.
+                </p>
+                <p>
+                    Born in Quito, Ecuador, I moved to Toronto during childhood and later to Montreal in 2020 for university studies.
+                    My passion lies in <strong>employing Machine Learning in healthcare</strong>, especially in Neuroscience applications.
+                </p>
+                <p>
+                    I completed my <strong>Honours B.Sc in Computer Science</strong> at <strong>McGill University</strong> with a minor
+                    in Neuroscience, graduating with <strong>First Class Honours</strong>. My research experiences span neuroprosthetics,
+                    LLM hallucinations, fMRI & TMS analysis through ML interpretability, and computational neuroscience.
+                </p>
+            </div>
+        </div>
+    </section>
 
-		<!-- Work -->
-			<article id="work" class="wrapper style2">
-				<div class="container">
-					<header>
-						<h2>Here's all the stuff I do.</h2>
-					</header>
-					<div class="row aln-center">
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
-								<span class="fa fa-code fa-3x"></span>
-								<h3>Computer Scientist</h3>
-								<p>I develop algorithms, with a heavy focus on Artificial Intelligence - Machine Learning, to push the boundaries of research.</p>
-							</section>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
-								<span class="fa fa-heartbeat fa-3x"></span>
-								<h3>Neuroscience</h3>
-								<p>Minoring in Neuroscience at McGill University and partaking in many Neuroscience based labs, including my master's research in Neuroprosthetics, have given me an in-depth knowledge of Neuroscience.</p>
-							</section>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
-								<span class="fas fa-volleyball-ball fa-3x"></span>
-								<h3>Volleyball</h3>
-								<p>Volleyball enthusiast for my whole life. Played competitively at the high school varsity level as captain and MVP.3 years of indoor and beach coaching experience</p>
-							</section>
-						</div>
-					</div>
-				</div>
-			</article>
+    <!-- Research Section -->
+    <section class="section section-alt" id="research">
+        <div class="container">
+            <h2 class="section-title">Research Interests</h2>
+            <div class="research-grid">
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Neuroprosthetics</h3>
+                    <p>Developing Machine Learning pipelines and architectures to solve neurostimulation problems for traumatic spinal cord injury therapy.</p>
+                </div>
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Machine Learning</h3>
+                    <p>Designing AI algorithms with applications in healthcare, focusing on interpretability and reliability in critical domains.</p>
+                </div>
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>LLM Safety</h3>
+                    <p>Researching methods to detect and mitigate hallucinations in Large Language Models for safer AI deployment.</p>
+                </div>
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-wave-square"></i>
+                    </div>
+                    <h3>Neuroimaging</h3>
+                    <p>Applying machine learning interpretability techniques to fMRI and TMS research for understanding brain function.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Publications Section -->
+    <section class="section" id="publications">
+        <div class="container">
+            <h2 class="section-title">Publications</h2>
+            <div class="publications-list">
+                <div class="publication">
+                    <span class="pub-badge">Under Review</span>
+                    <h3 class="pub-title">Paper submission to ICLR 2025</h3>
+                    <p class="pub-venue">Under double-blind review</p>
+                </div>
+                <div class="publication">
+                    <span class="pub-badge">2024</span>
+                    <h3 class="pub-title">
+                        <a href="https://arxiv.org/abs/2410.15460" target="_blank">
+                            Hallucination Detox: Sensitive Neuron Dropout (SeND) for Large Language Model Training
+                        </a>
+                    </h3>
+                    <p class="pub-authors">S. Mohammadzadeh*, <strong>J. D. Guerra*</strong>, M. Bonizzato, R. Rabbany, and G. Farnadi</p>
+                    <p class="pub-venue">NeurIPS Safe Generative AI Workshop 2024</p>
+                </div>
+                <div class="publication">
+                    <span class="pub-badge">2024</span>
+                    <h3 class="pub-title">
+                        <a href="https://dx.doi.org/10.1016/j.heliyon.2024.e39735" target="_blank">
+                            Inhibition of the inferior parietal lobe triggers state-dependent network adaptations
+                        </a>
+                    </h3>
+                    <p class="pub-authors">K. A. Williams, O. Numssen, <strong>J. D. Guerra</strong>, J. Kopal, D. Bzdok, and G. Hartwigsen</p>
+                    <p class="pub-venue">Heliyon, vol. 10, no. 21, 2024</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-		<!-- Portfolio -->
-			<article id="awards" class="wrapper style3">
-				<div class="container">
-					<header>
-						<h2>Awards and Accolades</h2>
-						<p>Here are some of the honours and awards I have received</p>
-					</header>
-					<div class="row">
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="Lang Scholar"><img src="images\1200px-McGill_University_CoA.svg.png" alt="" width="170" height="208 "/></a>
-								<h3><a href="#">Excellence Bursary for Computer Science, Computer Engineering and Computer Construction, and Electrical, Electronic and Communications Engineering</a></h3>
-								<p>Awarded January, 2021</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="https://www.ucc.on.ca/student-life/lang-scholars" class="Lang Scholar Program"><img src="images\ucc_logo.png" alt="" /></a>
-								<h3><a href="https://www.ucc.on.ca/student-life/lang-scholars">Lang Scholar Program</a></h3>
-								<p>Program that recognizes student-athletes at Upper Canada College </p>
-								<p>Entered into the program May, 2019</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="Lang Scholar Program"><img src="images\ucc_logo.png" alt=""/></a>
-								<h3><a href="#">General Proficiency Award, Upper Canada College</a></h3>
-								<p>Scored above an 83% in all subjects for that year</p>
-								<p>Awarded October, 2019</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="Lang Scholar Program"><img src="images\1200px-University_of_Waterloo_seal.svg.png" alt="" width="170" height="208"/></a>
-								<h3><a href="#">Certificate of Distinction Cayley Waterloo Math Contest</a></h3>
-								<p>Scored in the top 25th percentile of contest participants</p>
-								<p>Awarded March, 2018</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="https://www.credly.com/badges/f640946d-26af-41ba-b6fc-5f17def852e3" class="Lang Scholar Program"><img src="images\Ivey_Badge_Bronze.png" alt="" width="170" height="208"/></a>
-								<h3><a href="https://www.credly.com/badges/f640946d-26af-41ba-b6fc-5f17def852e3">Ivey Accelerate Program</a></h3>
-								<p>Attended 4 half day sessions to improve business skills</p>
-								<p>Certificate awarded May, 2019</p>
-							</article>
-						</div>
-					</div>
-					<footer>
-						<a href="#contact" class="button large scrolly">Get in touch with me</a>
-					</footer>
-				</div>
-			</article>
+    <!-- Education Section -->
+    <section class="section section-alt" id="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2024 - Present</span>
+                        <h3>M.ASc in Biomedical Engineering</h3>
+                        <p class="timeline-institution">Polytechnique Montreal & Mila - Quebec AI Institute</p>
+                        <p>Supervised by Prof. Marco Bonizzato. Research focus on neuroprosthetics and machine learning for spinal cord injury therapy.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2020 - 2024</span>
+                        <h3>B.Sc Honours Computer Science</h3>
+                        <p class="timeline-institution">McGill University</p>
+                        <p>Graduated with <strong>First Class Honours</strong>. Minor in Neuroscience. Research with Professors Erik Cook, Danilo Bzdok, and Golnoosh Farnadi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-		<!-- Contact -->
-			<article id="contact" class="wrapper style4">
-				<div class="container medium">
-					<div class="col-12">
-						<header>Find me on ...</header>
-						<ul class="social">
-							<li><a href="https://www.facebook.com/juandavid.guerra.56808/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="https://www.linkedin.com/in/juan-david-guerra-b46334187/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://github.com/JuanDGuerra20" class="icon brands fa-github"><span class="label">Github</span></a></li>
-							<li><a href="https://www.instagram.com/juan_david1025/?hl=en" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-		
-							<!--
-							<li><a href="#" class="icon solid fa-rss"><span>RSS</span></a></li>
-							<li><a href="#" class="icon brands fa-instagram"><span>Instagram</span></a></li>
-							<li><a href="#" class="icon brands fa-foursquare"><span>Foursquare</span></a></li>
-							<li><a href="#" class="icon brands fa-skype"><span>Skype</span></a></li>
-							<li><a href="#" class="icon brands fa-soundcloud"><span>Soundcloud</span></a></li>
-							<li><a href="#" class="icon brands fa-youtube"><span>YouTube</span></a></li>
-							<li><a href="#" class="icon brands fa-blogger"><span>Blogger</span></a></li>
-							<li><a href="#" class="icon brands fa-flickr"><span>Flickr</span></a></li>
-							<li><a href="#" class="icon brands fa-vimeo"><span>Vimeo</span></a></li>
-							-->
-						</ul>
-					</div>
-					<footer>
-						<ul id="copyright">
-							Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</footer>
-				</div>
-			</article>
+    <!-- Awards Section -->
+    <section class="section" id="awards">
+        <div class="container">
+            <h2 class="section-title">Awards & Honors</h2>
+            <div class="awards-grid">
+                <div class="award-card">
+                    <div class="award-year">2021</div>
+                    <h3>Excellence Bursary</h3>
+                    <p>For Computer Science, Computer Engineering, and Electrical Engineering</p>
+                    <span class="award-org">McGill University</span>
+                </div>
+                <div class="award-card">
+                    <div class="award-year">2019</div>
+                    <h3>Lang Scholar Program</h3>
+                    <p>Recognition for exceptional student-athletes</p>
+                    <span class="award-org">Upper Canada College</span>
+                </div>
+                <div class="award-card">
+                    <div class="award-year">2019</div>
+                    <h3>General Proficiency Award</h3>
+                    <p>Academic excellence across all subjects</p>
+                    <span class="award-org">Upper Canada College</span>
+                </div>
+                <div class="award-card">
+                    <div class="award-year">2018</div>
+                    <h3>Certificate of Distinction</h3>
+                    <p>Cayley Waterloo Math Contest - Top 25th percentile</p>
+                    <span class="award-org">University of Waterloo</span>
+                </div>
+            </div>
+        </div>
+    </section>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+    <!-- Contact Section -->
+    <section class="section section-alt" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-content">
+                <p class="contact-intro">
+                    I'm always interested in discussing research collaborations, opportunities, or just chatting about AI and neuroscience.
+                </p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:juandavidguerra1@gmail.com">juandavidguerra1@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Montreal, Quebec, Canada</span>
+                    </div>
+                </div>
+                <div class="social-links social-links-large">
+                    <a href="https://www.linkedin.com/in/juan-david-guerra-b46334187/" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/JuanDGuerra20" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://twitter.com/" target="_blank" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-	</body>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Juan David Guerra. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile navigation toggle
+        const navToggle = document.querySelector('.nav-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+
+        navToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            navToggle.classList.toggle('active');
+        });
+
+        // Close menu when clicking a link
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                navToggle.classList.remove('active');
+            });
+        });
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
 </html>
