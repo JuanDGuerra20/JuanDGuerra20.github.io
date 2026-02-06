@@ -23,10 +23,11 @@
             <ul class="nav-menu">
                 <li><a href="#about">About</a></li>
                 <li><a href="#research">Research</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#publications">Publications</a></li>
                 <li><a href="#education">Education</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="images/JuanGuerraCVComp.pdf" class="nav-cv">CV</a></li>
+                <li><a href="images/JuanGuerraCV_Full.pdf" class="nav-cv">CV</a></li>
             </ul>
         </div>
     </nav>
@@ -39,19 +40,19 @@
             </div>
             <div class="hero-content">
                 <h1>Juan David Guerra</h1>
-                <p class="hero-title">M.ASc Student</p>
+                <p class="hero-title">M.ASc Student in Software Engineering</p>
                 <p class="hero-affiliation">
                     <a href="https://mila.quebec/" target="_blank">Mila - Quebec AI Institute</a> &
-                    <a href="https://www.polymtl.ca/" target="_blank">Polytechnique Montreal</a>
+                    <a href="https://www.polymtl.ca/" target="_blank">Polytechnique Montr&eacute;al</a>
                 </p>
                 <p class="hero-description">
-                    Developing Machine Learning solutions for neuroprosthetics and spinal cord injury therapy.
+                    Developing amortized ML techniques for applications to Neuroprosthetics. Recipient of NSERC CGS-M and FRQNT Master's scholarships.
                 </p>
                 <div class="hero-links">
                     <a href="mailto:juandavidguerra1@gmail.com" class="btn btn-primary">
                         <i class="fas fa-envelope"></i> Contact Me
                     </a>
-                    <a href="images/JuanGuerraCVComp.pdf" class="btn btn-secondary">
+                    <a href="images/JuanGuerraCV_Full.pdf" class="btn btn-secondary">
                         <i class="fas fa-file-alt"></i> View CV
                     </a>
                 </div>
@@ -76,25 +77,22 @@
             <h2 class="section-title">About Me</h2>
             <div class="about-content">
                 <p>
-                    I am a first-year M.ASc student at <strong>Polytechnique Montreal</strong> and <strong>Mila - Quebec AI Institute</strong>,
+                    I am an M.ASc student in <strong>Software Engineering</strong> at <strong>Polytechnique Montr&eacute;al</strong> and <strong>Mila - Quebec AI Institute</strong> (GPA: 4.0/4.0),
                     supervised by Professor <a href="https://www.polymtl.ca/expertises/bonizzato-marco" target="_blank">Marco Bonizzato</a>,
-                    with co-supervisors Professors <a href="https://www.guillaumelajoie.com/" target="_blank">Guillaume Lajoie</a>,
-                    Numa Dancause, and Lama Seoud.
+                    with co-supervisor Professor <a href="https://www.guillaumelajoie.com/" target="_blank">Guillaume Lajoie</a>.
                 </p>
                 <p>
-                    Born in Quito, Ecuador, I moved to Toronto during childhood and later to Montreal in 2020 for university studies.
-                    My passion lies in <strong>employing Machine Learning in healthcare</strong>, especially in Neuroscience applications.
+                    My research focuses on <strong>amortized ML techniques for applications to Neuroprosthetics</strong>, developing efficient methods for neural stimulation optimization in spinal cord injury therapy.
                 </p>
                 <p>
-                    I completed my <strong>Honours B.Sc in Computer Science</strong> at <strong>McGill University</strong> with a minor
-                    in Neuroscience, graduating with <strong>First Class Honours</strong>. My research experiences span neuroprosthetics,
-                    LLM hallucinations, fMRI & TMS analysis through ML interpretability, and computational neuroscience.
+                    I completed my <strong>B.Sc. First-Class Honours in Computer Science</strong> with a <strong>Minor in Neuroscience</strong> at <strong>McGill University</strong> (GPA: 3.73/4.0).
+                    My work spans Gaussian Processes, Large Language Models, Foundation Models, and their applications to healthcare and neuroscience.
                 </p>
             </div>
         </div>
     </section>
 
-    <!-- Research Section -->
+    <!-- Research Interests Section -->
     <section class="section section-alt" id="research">
         <div class="container">
             <h2 class="section-title">Research Interests</h2>
@@ -104,62 +102,235 @@
                         <i class="fas fa-brain"></i>
                     </div>
                     <h3>Neuroprosthetics</h3>
-                    <p>Developing Machine Learning pipelines and architectures to solve neurostimulation problems for traumatic spinal cord injury therapy.</p>
+                    <p>Developing amortized ML techniques and Bayesian optimization methods for neural stimulation in spinal cord injury therapy.</p>
+                </div>
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Gaussian Processes</h3>
+                    <p>Hierarchical Gaussian Process methods for sample-efficient Bayesian Optimization in high-dimensional spaces.</p>
                 </div>
                 <div class="research-card">
                     <div class="research-icon">
                         <i class="fas fa-robot"></i>
                     </div>
-                    <h3>Machine Learning</h3>
-                    <p>Designing AI algorithms with applications in healthcare, focusing on interpretability and reliability in critical domains.</p>
-                </div>
-                <div class="research-card">
-                    <div class="research-icon">
-                        <i class="fas fa-comments"></i>
-                    </div>
-                    <h3>LLM Safety</h3>
-                    <p>Researching methods to detect and mitigate hallucinations in Large Language Models for safer AI deployment.</p>
+                    <h3>Large Language Models</h3>
+                    <p>Analyzing LLM training dynamics and developing methods to reduce hallucinations for safer AI deployment.</p>
                 </div>
                 <div class="research-card">
                     <div class="research-icon">
                         <i class="fas fa-wave-square"></i>
                     </div>
                     <h3>Neuroimaging</h3>
-                    <p>Applying machine learning interpretability techniques to fMRI and TMS research for understanding brain function.</p>
+                    <p>Using machine learning to analyze fMRI and TMS data for understanding brain function and task prediction.</p>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+        <div class="container">
+            <h2 class="section-title">Research & Projects</h2>
+            <div class="projects-list">
+
+                <div class="project-item">
+                    <button class="project-header">
+                        <div class="project-header-content">
+                            <h3>Hierarchical Optimization of Neurostimulation for Spinal Cord Injury</h3>
+                            <span class="project-meta">Mila & Polytechnique Montr&eacute;al | 2024 - Present | <em>Master's Thesis</em></span>
+                        </div>
+                        <i class="fas fa-chevron-down project-toggle"></i>
+                    </button>
+                    <div class="project-content">
+                        <p><strong>Supervisors:</strong> Marco Bonizzato and Guillaume Lajoie (Polytechnique Montreal and Mila)</p>
+                        <p><strong>Objective:</strong> Optimizing neurostimulation parameters for coordinated muscle activation following traumatic spinal cord injury in rat models. The core challenge involves incorporating multiple muscles into stimulation procedures while managing the complexity of additional parameters&mdash;functional recovery requires restoration of multiple movement patterns simultaneously, not just individual muscle recovery.</p>
+                        <p><strong>Key Innovation:</strong> Developed a hierarchical learning algorithm using Gaussian Processes capable of "disentangling information" to train multiple models concurrently from a single response signal. This Bidirectional Information Flow (BIF) framework enables sample-efficient Bayesian Optimization and is applicable to multi-parameter neurostimulation optimization and broader hierarchical learning contexts.</p>
+                        <p><strong>Outcome:</strong> arXiv preprint (<a href="https://arxiv.org/abs/2505.11294" target="_blank">arXiv:2505.11294</a>)</p>
+                        <div class="project-tags">
+                            <span>Gaussian Processes</span>
+                            <span>Bayesian Optimization</span>
+                            <span>Neuroprosthetics</span>
+                            <span>Spinal Cord Injury</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <button class="project-header">
+                        <div class="project-header-content">
+                            <h3>Hallucination Detox: Sensitivity Dropout (SenD) for LLM Training</h3>
+                            <span class="project-meta">McGill University & Mila | June 2024 - August 2025</span>
+                        </div>
+                        <i class="fas fa-chevron-down project-toggle"></i>
+                    </button>
+                    <div class="project-content">
+                        <p><strong>Collaborators:</strong> S. Mohammadzadeh (Mila), M. Bonizzato, R. Rabbany, G. Farnadi (EQUAL Lab)</p>
+                        <p><strong>Objective:</strong> Addressing factually inaccurate outputs (hallucinations) produced by large language models including ChatGPT and Meta's Llama models. Unlike existing approaches, we sought to identify root causes of hallucinations and address them <em>during training</em> rather than post-deployment.</p>
+                        <p><strong>Key Findings:</strong> Our research revealed that current LLM models are trained to optimize their loss function, but this does not correspond to optimizing factual performance. Analysis of Pythia's training dynamics showed hallucinatory behavior fluctuating randomly without improvement.</p>
+                        <p><strong>Solutions Developed:</strong></p>
+                        <ul>
+                            <li><strong>Sensitivity Dropout (SenD):</strong> A novel training protocol reducing performance oscillations and improving accuracy</li>
+                            <li><strong>Efficient EigenScore (EES):</strong> A hallucination detection method achieving quadratic-time computation versus cubic-time alternatives</li>
+                        </ul>
+                        <p><strong>Outcome:</strong> Published at <a href="https://aclanthology.org/2025.acl-long.304/" target="_blank">ACL 2025</a> (63rd Annual Meeting of the Association for Computational Linguistics), Vienna, Austria</p>
+                        <div class="project-tags">
+                            <span>LLMs</span>
+                            <span>AI Safety</span>
+                            <span>Hallucination Detection</span>
+                            <span>Deep Learning</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <button class="project-header">
+                        <div class="project-header-content">
+                            <h3>Unveiling Lateralization of the Brain through fMRI & TMS</h3>
+                            <span class="project-meta">McGill University & Mila | February 2023 - December 2024</span>
+                        </div>
+                        <i class="fas fa-chevron-down project-toggle"></i>
+                    </button>
+                    <div class="project-content">
+                        <p><strong>Supervisor:</strong> Professor Danilo Bzdok | <strong>International Collaboration:</strong> Prof. Gesa Hartwigsen (University of Leipzig)</p>
+                        <p><strong>Objective:</strong> Using machine learning models to analyze brain activation patterns from fMRI data to predict and understand cognitive tasks. This international collaboration investigated state-dependent network adaptations following inhibition of the inferior parietal lobe using Transcranial Magnetic Stimulation (TMS).</p>
+                        <p><strong>Methods:</strong> Applied ML interpretability techniques to neuroimaging data, combining fMRI analysis with TMS intervention studies to understand brain lateralization and network dynamics.</p>
+                        <p><strong>Tools:</strong> NIlearn, NumPy, Pandas, Matplotlib, Scikit-learn</p>
+                        <p><strong>Outcome:</strong> Published in <a href="https://dx.doi.org/10.1016/j.heliyon.2024.e39735" target="_blank">Heliyon (2024)</a></p>
+                        <div class="project-tags">
+                            <span>fMRI</span>
+                            <span>TMS</span>
+                            <span>Neuroimaging</span>
+                            <span>ML Interpretability</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <button class="project-header">
+                        <div class="project-header-content">
+                            <h3>Visual Stimuli and Neural Activation in Mouse Brains</h3>
+                            <span class="project-meta">McGill University | June 2022 - February 2023</span>
+                        </div>
+                        <i class="fas fa-chevron-down project-toggle"></i>
+                    </button>
+                    <div class="project-content">
+                        <p><strong>Supervisor:</strong> Professor Erik Cook (Department of Physiology)</p>
+                        <p><strong>Objective:</strong> Investigated correlations between visual stimuli and neural activation in mouse brains using statistical techniques and data processing.</p>
+                        <p><strong>Technical Contribution:</strong> Developed Z-plane motion correction methods for two-photon imaging of neural activity in awake behaving mice, improving data quality for downstream analysis.</p>
+                        <div class="project-tags">
+                            <span>Computational Neuroscience</span>
+                            <span>Two-photon Imaging</span>
+                            <span>Motion Correction</span>
+                            <span>Data Analysis</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
     <!-- Publications Section -->
-    <section class="section" id="publications">
+    <section class="section section-alt" id="publications">
         <div class="container">
             <h2 class="section-title">Publications</h2>
             <div class="publications-list">
                 <div class="publication">
-                    <span class="pub-badge">Under Review</span>
-                    <h3 class="pub-title">Paper submission to ICLR 2025</h3>
-                    <p class="pub-venue">Under double-blind review</p>
-                </div>
-                <div class="publication">
-                    <span class="pub-badge">2024</span>
+                    <span class="pub-badge">ACL 2025</span>
                     <h3 class="pub-title">
-                        <a href="https://arxiv.org/abs/2410.15460" target="_blank">
-                            Hallucination Detox: Sensitive Neuron Dropout (SeND) for Large Language Model Training
+                        <a href="https://aclanthology.org/2025.acl-long.304/" target="_blank">
+                            Hallucination Detox: Sensitivity Dropout (SenD) for Large Language Model Training
                         </a>
                     </h3>
                     <p class="pub-authors">S. Mohammadzadeh*, <strong>J. D. Guerra*</strong>, M. Bonizzato, R. Rabbany, and G. Farnadi</p>
-                    <p class="pub-venue">NeurIPS Safe Generative AI Workshop 2024</p>
+                    <p class="pub-venue">Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 5538-5554, Vienna, Austria</p>
                 </div>
                 <div class="publication">
-                    <span class="pub-badge">2024</span>
+                    <span class="pub-badge">arXiv 2025</span>
+                    <h3 class="pub-title">
+                        <a href="https://arxiv.org/abs/2505.11294" target="_blank">
+                            Bidirectional Information Flow (BIF) - A Sample Efficient Hierarchical Gaussian Process for Bayesian Optimization
+                        </a>
+                    </h3>
+                    <p class="pub-authors"><strong>J. D. Guerra</strong>, T. Garbay, G. Lajoie, and M. Bonizzato</p>
+                    <p class="pub-venue">arXiv:2505.11294, May 2025</p>
+                </div>
+                <div class="publication">
+                    <span class="pub-badge">Heliyon 2024</span>
                     <h3 class="pub-title">
                         <a href="https://dx.doi.org/10.1016/j.heliyon.2024.e39735" target="_blank">
                             Inhibition of the inferior parietal lobe triggers state-dependent network adaptations
                         </a>
                     </h3>
                     <p class="pub-authors">K. A. Williams, O. Numssen, <strong>J. D. Guerra</strong>, J. Kopal, D. Bzdok, and G. Hartwigsen</p>
-                    <p class="pub-venue">Heliyon, vol. 10, no. 21, 2024</p>
+                    <p class="pub-venue">Heliyon, vol. 10, no. 21, November 2024</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Presentations Section -->
+    <section class="section" id="presentations">
+        <div class="container">
+            <h2 class="section-title">Presentations & Talks</h2>
+            <div class="presentations-grid">
+                <div class="presentation-item">
+                    <div class="presentation-date">Oct 2025</div>
+                    <div class="presentation-content">
+                        <h4>Best Poster Award</h4>
+                        <p>UNIQUE Scientific Retreat, Montreal</p>
+                    </div>
+                </div>
+                <div class="presentation-item">
+                    <div class="presentation-date">Jul 2025</div>
+                    <div class="presentation-content">
+                        <h4>Poster Presentation</h4>
+                        <p>ACL 2025, Vienna, Austria</p>
+                    </div>
+                </div>
+                <div class="presentation-item">
+                    <div class="presentation-date">Jun 2025</div>
+                    <div class="presentation-content">
+                        <h4>Presenter</h4>
+                        <p>Neuroprosthetics Symposium, Universit&eacute; de Montr&eacute;al</p>
+                    </div>
+                </div>
+                <div class="presentation-item">
+                    <div class="presentation-date">Apr 2025</div>
+                    <div class="presentation-content">
+                        <h4>Selected Oral Presentation</h4>
+                        <p>CIRCA Scientific Retreat, Montreal</p>
+                    </div>
+                </div>
+                <div class="presentation-item">
+                    <div class="presentation-date">Mar 2025</div>
+                    <div class="presentation-content">
+                        <h4>Selected Oral Presentation</h4>
+                        <p>PolyCongr&eacute;, Polytechnique Montr&eacute;al</p>
+                    </div>
+                </div>
+                <div class="presentation-item">
+                    <div class="presentation-date">Mar 2025</div>
+                    <div class="presentation-content">
+                        <h4>Speaker - SNC Neurodiscussions</h4>
+                        <p>Universit&eacute; de Montr&eacute;al</p>
+                    </div>
+                </div>
+                <div class="presentation-item">
+                    <div class="presentation-date">Feb 2025</div>
+                    <div class="presentation-content">
+                        <h4>Workshop Leader - Deep Dive on DeepLabCut</h4>
+                        <p>CIRCAteliers, Universit&eacute; de Montr&eacute;al</p>
+                    </div>
+                </div>
+                <div class="presentation-item">
+                    <div class="presentation-date">Dec 2024</div>
+                    <div class="presentation-content">
+                        <h4>Poster Presentation</h4>
+                        <p>Safe Generative AI Workshop @ NeurIPS 2024, Vancouver</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -173,19 +344,23 @@
                 <div class="timeline-item">
                     <div class="timeline-marker"></div>
                     <div class="timeline-content">
-                        <span class="timeline-date">2024 - Present</span>
-                        <h3>M.ASc in Biomedical Engineering</h3>
-                        <p class="timeline-institution">Polytechnique Montreal & Mila - Quebec AI Institute</p>
-                        <p>Supervised by Prof. Marco Bonizzato. Research focus on neuroprosthetics and machine learning for spinal cord injury therapy.</p>
+                        <span class="timeline-date">Sep 2024 - May 2026</span>
+                        <h3>M.ASc in Software Engineering</h3>
+                        <p class="timeline-institution">Polytechnique Montr&eacute;al & Mila - Quebec AI Institute</p>
+                        <p><strong>GPA: 4.0/4.0</strong></p>
+                        <p>Principal Investigator: Marco Bonizzato | Co-supervisor: Guillaume Lajoie</p>
+                        <p>Research: Amortized ML techniques for applications to Neuroprosthetics</p>
+                        <p class="timeline-courses"><em>Coursework: 3D Reconstruction of Medical Images, Representation Learning, Continual Machine Learning, Neurotechnology and Neuroscience</em></p>
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-marker"></div>
                     <div class="timeline-content">
-                        <span class="timeline-date">2020 - 2024</span>
-                        <h3>B.Sc Honours Computer Science</h3>
+                        <span class="timeline-date">Sep 2020 - May 2024</span>
+                        <h3>B.Sc. First-Class Honours Computer Science</h3>
                         <p class="timeline-institution">McGill University</p>
-                        <p>Graduated with <strong>First Class Honours</strong>. Minor in Neuroscience. Research with Professors Erik Cook, Danilo Bzdok, and Golnoosh Farnadi.</p>
+                        <p><strong>GPA: 3.73/4.0</strong> | Minor in Neuroscience</p>
+                        <p class="timeline-courses"><em>Coursework: Honours Thesis, Reinforcement Learning, NLP, Responsible AI, Applied ML, Honours Algorithms & Data Structures</em></p>
                     </div>
                 </div>
             </div>
@@ -197,29 +372,29 @@
         <div class="container">
             <h2 class="section-title">Awards & Honors</h2>
             <div class="awards-grid">
+                <div class="award-card award-featured">
+                    <div class="award-year">2025</div>
+                    <h3>NSERC CGS-M</h3>
+                    <p>Canada Graduate Scholarships - Master's Level</p>
+                    <span class="award-org">Natural Sciences and Engineering Research Council</span>
+                </div>
+                <div class="award-card award-featured">
+                    <div class="award-year">2025</div>
+                    <h3>FRQNT Master's Scholarship</h3>
+                    <p>Nature et Technologies Sector Master's Research Scholarship</p>
+                    <span class="award-org">Fonds de Recherche du Qu&eacute;bec</span>
+                </div>
+                <div class="award-card award-featured">
+                    <div class="award-year">2025</div>
+                    <h3>UNIQUE Best Poster Award</h3>
+                    <p>Neuro-AI Best Poster - Master's Level</p>
+                    <span class="award-org">UNIQUE Scientific Retreat</span>
+                </div>
                 <div class="award-card">
                     <div class="award-year">2021</div>
-                    <h3>Excellence Bursary</h3>
-                    <p>For Computer Science, Computer Engineering, and Electrical Engineering</p>
-                    <span class="award-org">McGill University</span>
-                </div>
-                <div class="award-card">
-                    <div class="award-year">2019</div>
-                    <h3>Lang Scholar Program</h3>
-                    <p>Recognition for exceptional student-athletes</p>
-                    <span class="award-org">Upper Canada College</span>
-                </div>
-                <div class="award-card">
-                    <div class="award-year">2019</div>
-                    <h3>General Proficiency Award</h3>
-                    <p>Academic excellence across all subjects</p>
-                    <span class="award-org">Upper Canada College</span>
-                </div>
-                <div class="award-card">
-                    <div class="award-year">2018</div>
-                    <h3>Certificate of Distinction</h3>
-                    <p>Cayley Waterloo Math Contest - Top 25th percentile</p>
-                    <span class="award-org">University of Waterloo</span>
+                    <h3>Quebec Excellence Bursary</h3>
+                    <p>For Computer Science</p>
+                    <span class="award-org">Gouvernement du Qu&eacute;bec</span>
                 </div>
             </div>
         </div>
@@ -231,12 +406,16 @@
             <h2 class="section-title">Get in Touch</h2>
             <div class="contact-content">
                 <p class="contact-intro">
-                    I'm always interested in discussing research collaborations, opportunities, or just chatting about AI and neuroscience.
+                    I'm always interested in discussing research collaborations, opportunities, or chatting about AI and neuroscience.
                 </p>
                 <div class="contact-info">
                     <div class="contact-item">
                         <i class="fas fa-envelope"></i>
                         <a href="mailto:juandavidguerra1@gmail.com">juandavidguerra1@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+1 (514) 926-4604</span>
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-map-marker-alt"></i>
@@ -250,9 +429,6 @@
                     <a href="https://github.com/JuanDGuerra20" target="_blank" aria-label="GitHub">
                         <i class="fab fa-github"></i>
                     </a>
-                    <a href="https://twitter.com/" target="_blank" aria-label="Twitter">
-                        <i class="fab fa-twitter"></i>
-                    </a>
                 </div>
             </div>
         </div>
@@ -261,7 +437,7 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 Juan David Guerra. All rights reserved.</p>
+            <p>&copy; 2025 Juan David Guerra. All rights reserved.</p>
         </div>
     </footer>
 
@@ -303,6 +479,24 @@
                         behavior: 'smooth',
                         block: 'start'
                     });
+                }
+            });
+        });
+
+        // Project accordion functionality
+        document.querySelectorAll('.project-header').forEach(header => {
+            header.addEventListener('click', () => {
+                const projectItem = header.parentElement;
+                const isActive = projectItem.classList.contains('active');
+
+                // Close all other projects
+                document.querySelectorAll('.project-item').forEach(item => {
+                    item.classList.remove('active');
+                });
+
+                // Toggle current project
+                if (!isActive) {
+                    projectItem.classList.add('active');
                 }
             });
         });
