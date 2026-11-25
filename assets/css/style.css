@@ -501,6 +501,104 @@ img {
     font-size: 0.95rem;
 }
 
+/* Experience Timeline */
+.experience-timeline {
+    max-width: 700px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.experience-timeline::before {
+    content: '';
+    position: absolute;
+    left: 19px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: var(--border-color);
+}
+
+.experience-item {
+    position: relative;
+    padding-left: 60px;
+    margin-bottom: 2.5rem;
+}
+
+.experience-item:last-child {
+    margin-bottom: 0;
+}
+
+.experience-marker {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    background: white;
+    border: 3px solid var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: var(--card-shadow);
+}
+
+.experience-marker i {
+    font-size: 1.1rem;
+    color: var(--primary-color);
+}
+
+.experience-content {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: var(--card-shadow);
+    transition: var(--transition);
+}
+
+.experience-item:hover .experience-content {
+    transform: translateX(5px);
+    box-shadow: var(--card-shadow-hover);
+}
+
+.experience-date {
+    display: inline-block;
+    background: var(--primary-color);
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+}
+
+.experience-content h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.25rem;
+}
+
+.experience-org {
+    color: var(--primary-color);
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+}
+
+.experience-location {
+    color: var(--text-light);
+    font-size: 0.9rem;
+    margin-bottom: 0.75rem;
+}
+
+.experience-content ul {
+    margin-left: 1.25rem;
+    color: var(--text-light);
+    font-size: 0.95rem;
+}
+
+.experience-content ul li {
+    margin-bottom: 0.4rem;
+}
+
 /* Awards Section */
 .awards-grid {
     display: grid;
@@ -885,6 +983,23 @@ img {
     .timeline-marker {
         width: 18px;
         height: 18px;
+    }
+
+    .experience-timeline::before {
+        left: 15px;
+    }
+
+    .experience-item {
+        padding-left: 48px;
+    }
+
+    .experience-marker {
+        width: 32px;
+        height: 32px;
+    }
+
+    .experience-marker i {
+        font-size: 0.9rem;
     }
 }
 
